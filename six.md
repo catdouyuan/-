@@ -54,9 +54,6 @@ The ideology of the colonizers was one that sought to dominate and control, but 
 In the end, the colonial era was a complex tapestry of power, control, and resistance, where the provocative tack of the colonizers was met with the incredible resilience of the indigenous people, who, despite the odds, managed to maintain their culture and identity, and ultimately, began the process of reclaiming their lands and their future.
 
 单词及中文标注：
-当然，以下是您提供的英文单词及其中文意思：
-
-当然可以，以下是您提供的英文单词及其中文意思，按照您要求的格式：
 
 - Provocative: 挑衅的
 - Tack: 方法，策略
@@ -95,4 +92,52 @@ In the end, the colonial era was a complex tapestry of power, control, and resis
 - Indicative: 指示的，暗示的
 - Qualitative: 定性的;质量的
 - Ideology: 意识形态
-- Integral 完整的;必需的
+- Integral :完整的;必需的
+- Resort :求助
+
+
+## 第三天
+Once upon a time in a small village, a group of individuals strived to attain a level of craftsmanship that was nothing short of magnificent. They were determined to create the finest products, using only the best materials and techniques available.
+
+However, their journey was not without adversity. The villagers faced numerous challenges, from the harsh weather conditions to the occasional stray animals that would disrupt their work. Despite these setbacks, they remained committed to their goal, using every remedy at their disposal to overcome the obstacles.
+
+One day, a mob of outsiders arrived, claiming that the villagers' work was inferior and that they were wasting their time. This stimulus was a test of the villagers' resolve, but they did not waver. Instead, they used the criticism as a catalyst to improve their skills further.
+
+The villagers' temperament was one of resilience and determination. They would not be arrested by the negativity of others. They asserted their worth and continued to work diligently, henceforth proving their critics wrong with every exquisite piece they produced.
+
+As time went on, the villagers consolidated their efforts, working together to create a harmonious community. They would allege that their success was due to their cordial relationships and mutual support.
+
+Their work coincided with a time when the demand for their products was high, and they were able to shuttle their goods to far-off places. The villagers were not tenants of the land but its stewards, ensuring that their practices were sustainable and that they left the environment as they found it.
+
+In the dim light of their workshops, they would groan under the weight of their tasks, but they also took pride in their labor. They purified their methods, ensuring that their products were not just beautiful but also beneficial to those who used them.
+
+In the end, they managed to extinguish any doubts about their abilities. They had not only attained the level they aspired to but had also become a beacon of excellence in their craft. The villagers' story serves as a reminder that with perseverance, even the most adverse conditions can be overcome, and that the pursuit of excellence is a journey worth undertaking.
+
+- Attain: 达到
+- Up to scratch: 达到标准
+- Magnificent: 壮丽的
+- Adverse: 不利的
+- Stray: 偏离
+- Remedy: 补救方法
+- Mob: 暴民
+- Inferior: 低等的
+- Stimulus: 刺激
+- Grease: 润滑
+- Temperament: 气质
+- Arrest: 逮捕
+- Consolidate: 巩固
+- Assert: 断言
+- Henceforth: 从此
+- Allege: 声称
+- Recede: 后退
+- Arena: 竞技场
+- Cordial: 热情的
+- Groan: 呻吟
+- Coincide: 巧合
+- Shuttle: 穿梭
+- Paralyze: 瘫痪
+- Tenant: 租户
+- Dim: 暗淡的
+- Purify: 净化
+- Extinguish: 扑灭
+- Persevere: 坚持
