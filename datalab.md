@@ -83,3 +83,102 @@ int cleanConsecutive1(int x) {
 } 
 ```
 首先我们来看看t的作用：当t的某一个比特位为0时，x同一位以及右边一位都为1，那么（t|t>>1）中的t>>1的意思是x同一位以及左边一位都为1（不明白的可以随便写一个数来试试看），这样一来（t|t>>1）就存储了所有连续1的比特位，先取反然后对x进行&就可以清除连续1的比特位了。
+
+
+## 练习
+### 位运算
+#### byteSwap
+- 要求：交换第 n 字节和第 m 字节
+- 允许的操作符：!、~、&、^、|、+、<<、>>
+- 最大操作次数：16
+
+```cpp
+int swapbyte(int x, int n, int m) {
+	int mask = 0xff;
+	int newn = n << 3;
+	int newm = m << 3;
+	int newx = x & ~((mask << newn) | (mask << newm));//保留除了第n和m个字节的其他字节，同时将第n和m个字节清零
+	int a = ((x >> newn) & mask) << newm;//将第n个字节移动到第m个字节，下面的同理
+	int b = ((x >> newm) & mask) << newn;
+	newx |= a | b;
+	return newx;
+
+}
+```
+
+#### logicalShift
+- 要求：把 x 逻辑右移 n 位
+- 允许的操作符：!、~、&、^、|、+、<<、>>
+- 最大操作次数：16
+```cpp
+int logicalshift(int x,int n) {
+	int flag = 1 << 31;
+	int sign = x & flag;
+	int re = (x >> n) & ~(flag >> n<<1);
+	return sign & re;
+}
+```
+
+#### cleanConsecutive1
+- 要求：计算 x 的二进制形式中最高位开始的前导 1 的数量
+- 允许的操作符：!、~、&、^、|、+、<<、>>
+- 最大操作次数：50
+```cpp
+int leftBitCount(int x) {
+   //伪代码
+   int ans = 0;
+   if (x 最高 16 位均为 1){
+      ans += 16;
+      x = x << 16;
+   }
+   if (x 最高 8 位均为 1){
+      ans += 8;
+      x = x << 8;
+   }
+   if (x 最高 4 位均为 1){
+      ans += 4;
+      x = x << 4;
+   }
+   if (x 最高 2 位均为 1){
+      ans += 2;
+      x = x << 2;
+   }
+   if (x 最高 1 位均为 1){
+      ans += 1;
+      x = x << 1;
+   }
+   // 对于 32 位全为 1 的情况特判
+   if (x == -1){
+      ans += 1;
+   }
+}
+```
+```cpp
+int leftbitcount(int x) {
+	int ans = 0,pt_16,pt_8,pt_4,pt_2,pt_1,is_neg_1;
+
+	int tmin = 1 << 31;
+	pt_16 = !(~(x & (tmin >> 15))>>16)<<4;
+	ans += pt_16;
+	x <<= pt_16;
+	pt_8 = (!(~(x & (tmin >> 7)) >> 24)) << 3;
+	ans += pt_8;
+	x <<= pt_8;
+	pt_4 = (!(~(x & (tmin >> 3)) >> 28)) << 2;
+	ans += pt_4;
+	x <<= pt_4;
+	pt_2 = (!(~(x & (tmin >> 1)) >> 30)) << 1;
+	ans += pt_2;
+	x <<= pt_2;
+	pt_1 = (!(~(x & tmin) >> 31));
+	ans += pt_1;
+	x <<= pt_1;
+	is_neg_1 = x >> 31 & 1;
+	ans += is_neg_1;
+	return ans;
+}
+```
+
+
+
+
